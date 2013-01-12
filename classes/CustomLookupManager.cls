@@ -1,3 +1,7 @@
+/*
+@Auther: Mohammad Usman
+@Version: 1.0
+*/
 public with sharing class CustomLookupManager {
     public String selectedPhoneNumber {get;set;}
     public String selectedPhoneNumberContactName {get;set;}
