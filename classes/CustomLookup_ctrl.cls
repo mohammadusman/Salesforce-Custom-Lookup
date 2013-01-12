@@ -1,3 +1,7 @@
+/*
+@Auther: Mohammad Usman
+@Version: 1.0
+*/
 public with sharing class CustomLookup_ctrl {      
     public String fieldTypeForSelectedField {get;set;}     
     public list<PhoneNumberDetail> listOfLookupsElement {get;set;}
@@ -8,6 +12,7 @@ public with sharing class CustomLookup_ctrl {
     public boolean isChecked {get;set;}
     public String phoneNumberPassToTextBox {get;set;}
     public String phoneNamePassToHdn {get;set;}
+
     public boolean isAllSelectCheckBox {get;set;}
     /*Controller*/
     public CustomLookup_ctrl (){
